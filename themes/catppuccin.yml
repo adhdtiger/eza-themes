@@ -42,10 +42,10 @@ size:
   unit_huge: { foreground: '#74C7EC' }
 
 users:
-  user_you: { foreground: '#CDD6F4' }
+  user_you: { foreground: '#74C7EC' }
   user_root: { foreground: '#F38BA8' }
   user_other: { foreground: '#CBA6F7' }
-  group_yours: { foreground: '#BAC2DE' }
+  group_yours: { foreground: '#74C7EC' }
   group_other: { foreground: '#7F849C' }
   group_root: { foreground: '#F38BA8' }
 
@@ -80,10 +80,10 @@ file_type:
   video: { foreground: '#F38BA8' }
   music: { foreground: '#A6E3A1' }
   lossless: { foreground: '#94E2D5' }
-  crypto: { foreground: '#585B70' }
+  crypto: { foreground: '#EBA0AC' }
   document: { foreground: '#CDD6F4' }
   compressed: { foreground: '#F5C2E7' }
-  temp: { foreground: '#EBA0AC' }
+  temp: { foreground: '#585B70' }
   compiled: { foreground: '#74C7EC' }
   build: { foreground: '#585B70' }
   source: { foreground: '#89B4FA' }
