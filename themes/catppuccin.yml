@@ -83,7 +83,7 @@ file_type:
   crypto: { foreground: '#EBA0AC' }
   document: { foreground: '#CDD6F4' }
   compressed: { foreground: '#F5C2E7' }
-  temp: { foreground: '#585B70' }
+  temp: { foreground: '#808080' }
   compiled: { foreground: '#74C7EC' }
   build: { foreground: '#585B70' }
   source: { foreground: '#89B4FA' }
