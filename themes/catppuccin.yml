@@ -83,7 +83,7 @@ file_type:
   crypto: { foreground: '#EBA0AC' }
   document: { foreground: '#CDD6F4' }
   compressed: { foreground: '#F5C2E7' }
-  temp: { foreground: '#808080' }
+  temp: { foreground: '#6c7086' }
   compiled: { foreground: '#74C7EC' }
   build: { foreground: '#585B70' }
   source: { foreground: '#89B4FA' }
@@ -103,14 +103,15 @@ broken_path_overlay: { foreground: '#585B70' }
 
 extensions:
   # Custom extension-based overrides
-  # rs: {filename: {foreground: Red}, icon: {glyph: 🦀}}
+  rs: {filename: { foreground: Red }, icon: { glyph: 🦀 } }
   yml: { filename: { foreground: '#74C7EC' } }
   yaml: { filename: { foreground: '#74C7EC' } }
   toml: { filename: { foreground: '#74C7EC' } }
+  old: { filename: { foreground: '#6c7086' } }
 
 filenames:
   # Custom filename-based overrides
-  # Cargo.toml: {icon: {glyph: 🦀}}
+  Cargo.toml: {icon: {glyph: 🦀} }
 # Example
 # filenames:
 #   "Makefile":
@@ -118,7 +119,7 @@ filenames:
 #       foreground: Red
 #       is_bold: true
 #     icon:
-#       glyph: ⚙️
+#       glyph: ⚙️ 
 #       foreground: Red
 
 # filekinds: Styles for different types of files (e.g., directories, symlinks).
